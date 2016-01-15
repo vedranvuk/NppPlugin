@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CONFIG>
-  <Compiler Value="C:\Programs\Develop\FPC\bin\i386-win32\fpc.exe" Date="1112315642"/>
-  <Params Value=" -Mdelphi -Scghi -O1 -g -gl -WG -vewnhi -FuC:\Programs\Develop\Lazarus\lcl\units\i386-win32\win32 -FuC:\Programs\Develop\Lazarus\lcl\units\i386-win32 -FuC:\Programs\Develop\Lazarus\components\lazutils\lib\i386-win32 -FuC:\Programs\Develop\Lazarus\packager\units\i386-win32 -FuC:\Dev\Projects\NppPlugin\ -l -dLCL -dLCLwin32 -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL NppPlugin.dpr"/>
-  <Complete Value="False"/>
-</CONFIG>
