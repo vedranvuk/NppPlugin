@@ -1,9 +1,18 @@
 unit NppPluginMain;
 
+{$IFDEF FPC}
+  {$MODE Delphi}
+{$ENDIF}
+
 interface
 
 uses
-	Windows, SysUtils, NppPluginInterface;
+{$IFnDEF FPC}
+  Windows,
+{$ELSE}
+  LCLIntf, LCLType, LMessages,
+{$ENDIF}
+  SysUtils, NppPluginInterface;
 
 const
 	NPP_PLUGIN_NAME: PChar        = 'NppPlugin';

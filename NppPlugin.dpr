@@ -1,9 +1,17 @@
 library NppPlugin;
 
+{$IFDEF FPC}
+  {$MODE Delphi}
+{$ENDIF}
+
 {$R 'Resources.res' 'Resources.rc'}
 
 uses
+{$IFnDEF FPC}
   Windows,
+{$ELSE}
+  LCLIntf, LCLType, LMessages,
+{$ENDIF}
   Messages,
   NppPluginInterface,
   NppPluginMain in 'NppPluginMain.pas';
