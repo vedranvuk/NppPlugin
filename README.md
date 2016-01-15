@@ -1,4 +1,4 @@
 NppPlugin
 =========
 
-a notepad++ template in Delphi (R.I.P.)
+A notepad++ template in Delphi.
